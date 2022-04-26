@@ -1,0 +1,427 @@
+/* START CLIENT */
+
+/* HEADER */
+.img_logo_header{
+    width: 120px;
+    margin: 20px;
+    border: 3px solid rgb(148, 117, 117);
+    border-radius: 50%;
+}
+.text_name_logo_header{
+    font-size: 70px;
+    color: rgb(148, 117, 117);
+    font-family: Hi Melody;
+}
+.menu-list{
+    padding: 8px;
+    background-color: rgb(148, 117, 117);
+}
+.menu-list ul li a{
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+}
+.menu-list ul li a:hover{
+    color: rgb(233, 174, 120);
+}
+/* END HEADER */
+
+/* CONTENT TRANGCHU*/
+.content-box-img{
+    width: 100%;
+    
+    align-items: center;
+    padding: 80px;
+}
+.content-box-img p{
+    font-size: 25px;
+    color: white;
+}
+.sub-undercontent{
+    color: rgb(148, 117, 117);
+}
+.sub-undercontent:hover{
+    color: rgb(182, 121, 121);
+}
+/* END CONTENT TRANGCHU*/
+
+/* FOOTER */
+.footer{
+    background-color: rgb(148, 117, 117);
+    padding: 30px;
+}
+.head_text_footer{
+    font-size: 35px;
+}
+.footer-tag{
+    list-style-type: none;
+}
+.footer-tag li {
+    text-decoration: none;
+    color: white;
+    margin-top: 12px;
+    font-weight: bold;
+ }
+.footer-tag li a{
+    text-decoration: none;
+   color: white;
+}
+.underline{
+    content: '';
+    width: 50px;
+    height: 2px;
+    background: rgb(224, 173, 182);
+}
+/* FOOTER */
+
+/* GIOI THIEU */
+.gt-text-head{
+    color: white;
+    background-color: rgb(148, 117, 117);
+}
+.gt-vecongdong-list-content ul li{
+    font-weight: bold;
+    margin-top: 15px;
+}
+.gt-vecongdong-list-social ul{
+    list-style-type: none;
+}
+.gt-vecongdong-list-social ul li a{
+    text-decoration: none;
+    color: black;
+}
+.gt-vecongdong-list-social ul li a:hover{
+    
+    color: rgb(224, 53, 53);
+}
+/* GIOI THIEU */
+
+/* CHI TIET CONG THUC */
+.chitietcongthuc-cacbaidang-right a{
+    text-decoration: none;
+    color: rgb(148, 117, 117);
+}
+.chitietcongthuc-cacbaidang-right a:hover{
+    text-decoration: none;
+    color: rgb(231, 136, 153);
+}
+.chitietcongthuc-dangki-buttondangki-right p a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+.chitietcongthuc-dangki-buttondangki-right p a:hover{
+    color: rgb(238, 138, 138);
+    font-weight: bold;
+}
+.chitietcongthuc-binhluan-pushed{
+    margin-left: 30px;
+}
+.chitietcongthuc-binhluan-tenguoi{
+
+}
+.chitietcongthuc-binhluan-noidung{
+    margin-top: -10px;
+    margin-left: 20px;
+}
+/* CHI TIET CONG THUC */
+
+/* CHI TIET THONG TIN HUU ICH */
+.chitietthongtinhuuich-noidung-main-content{
+    margin-left: 35px;
+    
+}
+/* CHI TIET THONG TIN HUU ICH */
+
+
+/* LIEN HE */
+section{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: Roboto Slab;
+    background: rgb(148, 117, 117);
+}
+section::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width:50%;
+    height: 100%;
+    background: #f3dde371;
+}
+section .container{
+    position: relative;
+    min-width: 1100px;
+    min-height: 550px;
+    display:flex;
+    z-index: 100;
+}
+section .container .containerinfo{
+    position: absolute;
+    top: 40px;
+    width: 350px;
+    height: calc(100% - 80px);
+    background: rgb(148, 117, 117);
+    z-index: 1;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: 0 20px 20px rgba(0,0,0,0.2);
+}
+section .container .containerinfo h2{
+    color: #fff;
+    font-size: 24px;
+    margin: 30px 0 0 20px;
+}
+section .container .containerinfo li{
+    position: relative;
+    list-style: none;
+    display: flex;
+    cursor: pointer;
+    align-items: flex-start;
+    margin: 40px 0 0 40px;
+}
+section .container .containerinfo li span{
+    color: #fff;
+    margin-left: 5px;
+    font-weight: 300;
+    padding: 5px 0;
+    opacity: 0.5;
+    font-size: 17px;
+}
+/*Hiệu Ứng Hover Cho Thẻ Li*/
+section .container .containerinfo li:hover span{
+    opacity: 1;
+}
+section .container .containerinfo .sci{
+    position: relative;
+    display:flex;
+}
+section .container .containerinfo .sci li{
+    list-style: none;
+    margin-right: 15px;
+}
+section .container .containerinfo .sci li a{
+    text-decoration: none;
+    opacity: 0.5;
+    color: #fff;
+    font-size: 32px;
+}
+/*Hiệu Ứng Hover Icon*/
+section .container .containerinfo .sci li:hover a{
+    opacity: 1;
+}
+
+section .container .containerForm{
+    position: absolute;
+    padding: 70px 50px;
+    background: #fff;
+    margin-left: 150px;
+    padding-left: 250px;
+    width: calc(100% - 150px);
+    height: 100%;
+    box-shadow: 0 50px 50px rgba(0,0,0,0.5);
+}
+section .container .containerForm h2{
+    color: rgb(148, 117, 117);
+    font-size: 24px;
+    font-weight: 500;
+}
+section .container .containerForm .formBox{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-top: 30px;
+}
+section .container .containerForm .formBox .inputBox{
+    position: relative;
+    margin: 0 0 35px 0;
+}
+section .container .containerForm .formBox .inputBox.w30{
+    width: 25%;
+}
+section .container .containerForm .formBox .inputBox.w50{
+    width: 47%;
+}
+section .container .containerForm .formBox .inputBox.w100{
+    width: 100%;
+}
+
+section .container .containerForm .formBox .inputBox input,
+ section .container .containerForm .formBox .inputBox textarea{
+     width: 100%;
+     padding: 5px 0;
+     resize: none;
+     font-size: 18px;
+     font-weight: 400;
+     color: #333;
+     border: none;
+     border-bottom: 1px solid #777;
+     outline: none;
+ }
+section .container .containerForm .formBox .inputBox textarea{
+     min-height: 120px;
+ }
+section .container .containerForm .formBox .inputBox input[type="submit"]{
+     position: relative;
+     cursor: pointer;
+     background: rgb(148, 117, 117);
+     color: #fff;
+     border: none;
+     max-width: 150px;
+     padding: 12px;
+ }
+section .container .containerForm .formBox .inputBox input[type="submit"]:hover{
+     background:  #c7b3a6;
+}
+
+section .container .containerForm .formBox .inputBox span{
+    position: absolute;
+    left: 0;
+    padding: 5px 0;
+    font-size: 18px;
+    font-weight: 400;
+    color: #333;
+    transition: 0.5s;
+    pointer-events: none;
+}
+section .container .containerForm .formBox .inputBox input:focus ~ span,
+section .container .containerForm .formBox .inputBox textarea:focus ~ span,
+section .container .containerForm .formBox .inputBox input:valid ~ span,
+section .container .containerForm .formBox .inputBox textarea:valid ~ span{
+    transform: translateY(-20px);
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    color: rgb(126, 99, 99);
+}
+@media (max-width: 950px){
+    
+    .containerForm{
+        width: 500px;
+    }
+    .formBox{
+        width: 500px;
+    }
+}
+@media (max-width: 850px){
+    section .container .containerinfo{
+        display: none;
+    }
+    .containerForm{
+        width: 400px;
+    }
+    .formBox{
+        width: 400px;
+    }
+}
+@media (max-width: 500px){
+    .section ,.container, .containerForm, .formBox{
+        width: 200px;
+       
+    }
+    .containerForm{
+        width: 250px;
+    }
+    .formBox{
+        width: 270px;
+    }
+}
+/* LIEN HE */
+
+
+/* DANG KI */
+#body{
+    background: url('../../../Image//anhdk.jpg');
+    background-size: cover;
+    background-position-y: -80px;
+}
+#wrapper{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#form-login{
+    max-width: 400px;
+    background: rgba(0, 0, 0 , 0.8);
+    flex-grow: 1;
+    padding: 30px 30px 40px;
+    box-shadow: 0px 0px 17px 2px rgba(255, 255, 255, 0.8);
+}
+.form-heading{
+    font-size: 25px;
+    color: #f5f5f5;
+    text-align: center;
+    margin-bottom: 30px;
+    font-family: Varela Round;
+}
+.form-heading-inf{
+    font-size: 15px;
+    color: #f5f5f5;
+    text-align: center;
+    margin-bottom: 30px;
+    font-family: Varela Round;
+}
+.form-group{
+    border-bottom: 1px solid #fff;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    /* display: flex; */
+}
+.form-group i{
+    color: #fff;
+    font-size: 14px;
+    padding-top: 5px;
+    padding-right: 10px;
+}
+.form-input{
+    background: transparent;
+    border: 0;
+    outline: 0;
+    color: #f5f5f5;
+    flex-grow: 1;
+}
+.form-input::placeholder{
+    color: #f5f5f5;
+    font-family: Roboto Slab;
+    font-size: 15px;
+}
+
+.form-submit{
+    background: transparent;
+    border: 1px solid #f5f5f5;
+    color: #fff;
+    width: 50%;
+    text-transform: uppercase;
+    padding: 6px 10px;
+    transition: 0.25s ease-in-out;
+    margin-top: 30px;
+    margin-left: 100px;
+    font-family: Varela Round;
+}
+.form-submit:hover{
+    background-color: rgb(148, 117, 117);
+}
+/* DANG KI */
+
+/* END CLIENT */
+
+/* START ADMIN */
+/* DANG NHAP */
+.admin-dangnhap{
+    /* background: url('../../../Image//anhdk.jpg'); */
+    width: 1920px;
+    /* height: 1080px; */
+}
+/* DANG NHAP */
+/* START ADMIN */
+
+
+
+
+

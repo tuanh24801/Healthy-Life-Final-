@@ -1,0 +1,1 @@
+<?php header('location: ./App/Public/Client/index.php')?>
